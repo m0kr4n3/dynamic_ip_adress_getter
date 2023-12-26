@@ -1,7 +1,7 @@
 #!/bin/bash
 
 if [[ $# -eq 0 ]]; then
-        echo -e "[-] Usage : $0 <the private git repository to push your public ip>\n ex : $0  ~/RPI_address"
+        echo -e "[-] Usage : $0 <the private git repo folder to push your public ip>\n ex : $0  ~/RPI_address"
         exit
 fi;
 current_dir="$PWD"
